@@ -2,7 +2,7 @@
 
 Use AI models to shorten audiobooks and renarrate them in a custom voice.
 
-⚠️ This is an alpha-quality prototype. Your mileage may vary. ⚠️
+⚠️ This is a prototype. Your mileage may vary. ⚠️
 
 ## Why?
 
@@ -53,6 +53,8 @@ python compose.py chapters/*.mp3
 
 - **Start in the browser.** When first tinkering with a model, running it on Replicate's web UI make it easier to get started, play with inputs, visualize outputs, then grab some code and run with it.
 
+- **Use the Replicate dashboard** to dig into your recent predictions and get a helpful view of inputs, outputs, and metrics.
+
 - **Use [Replicate deployments](https://replicate.com/docs/deployments).** Deploying your own copy of a model on Replicate gives you control over min/max instances, so you can keep a model on while you're prototyping and turn it down to zero when you're done.
 
 - **Use Python for prototyping.** ChatGPT is good at writing Python. Python has a big standard library so you can build stuff with fewer external dependencies. No ESM/CJS shenanigans. Better Replicate client library experienc for working with local files.
@@ -61,4 +63,9 @@ python compose.py chapters/*.mp3
 
 - **Use run counts as a proxy for model quality.** - There are many [whisper variants](https://replicate.com/explore?query=whisper). Some are better than others. Some do diarization. Some fall over on large audio files. A high run count is usually a good indication that people are using a model with success.
 
-- Idea: Find the utterances that are followed by laughter
+## Extra credit
+
+- Try running the language model locally using Ollama's Python or JavaScript client libraries.
+- Play around with the summary prompts. How do you get the best "compression" while still maintaining the essence of the original text?
+- Bring your own audio file as voice training data. Eleven Labs supports training on the fly without pre-creating a voice.
+- Build an app that finds and extracts utterances in audio that are followed by laughter.
