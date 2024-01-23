@@ -1,6 +1,6 @@
 # Audiobook Revamper
 
-Use AI models to shorten audiobooks and renarrate them in a custom voice.
+Use AI to shorten an re-narrate audiobooks.
 
 ⚠️ This is a prototype. Your mileage may vary. ⚠️
 
