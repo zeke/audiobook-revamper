@@ -10,12 +10,12 @@ def chapterize(input_file):
 
     for i in range(0,len(metaDict['chapters']),1):
         chapTitle = metaDict['chapters'][i]['tags']['title']
-        chapTitle = re.sub("['-]", "", chapTitle)
+        chapTitle = re.sub("['-]", "", chapTitle).strip()
         startTime = metaDict['chapters'][i]['start_time']
         endTime = metaDict['chapters'][i]['end_time']
-        chapNum = metaDict['chapters'][i]['id'] + 1
+        chapNum = "{:02d}".format(metaDict['chapters'][i]['id'] + 1)
 
-        trackName = "{} {}.mp3".format(chapNum, chapTitle)
+        trackName = "{}-{}.mp3".format(chapNum, re.sub(r'\W+', '-', chapTitle.lower()))
         print("Creating {}".format(trackName))
 
         outbound = ffmpeg.output(bookFile,trackName,ss=startTime,to=endTime,map_chapters="-1")
