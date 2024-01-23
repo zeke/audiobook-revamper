@@ -4,6 +4,12 @@ Use AI models to shorten audiobooks and renarrate them in a custom voice.
 
 ⚠️ This is an alpha-quality prototype. Your mileage may vary. ⚠️
 
+## Why?
+
+- Reading is hard for some people, like me.
+- Some narrators don't have soothing voices.
+- Some audiobooks are too long.
+
 ## How it works
 
 1. **Download** an audiobook from Audible as an M4B file using [OpenAudible](https://openaudible.org).
