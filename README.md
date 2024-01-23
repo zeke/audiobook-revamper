@@ -20,15 +20,17 @@ Use AI to shorten an re-narrate audiobooks.
 
 ## Prerequisites
 
-- [Replicate](https://replicate.com) account
+- [Replicate](https://replicate.com) account for running language and speech-to-text models
+- [Eleven Labs](https://elevenlabs.io/) account for running text-to-speech models
 - Python environment (your computer, or Replit, or Google Colab)
 
 ## Usage
 
-Add your [Replicate API token](https://replicate.com/account) to your environment:
+Add your [Replicate API token](https://replicate.com/account) and [Eleven Labs API key](https://elevenlabs.io/) to your environment:
 
 ```sh
 export REPLICATE_TOKEN=r8_foobarbazzledazzle
+export ELEVEN_LABS_API_KEY=eleventybillion
 ```
 
 Install Python dependencies and run the script:
@@ -65,7 +67,8 @@ python compose.py chapters/*.mp3
 
 ## Extra credit
 
-- Try running the language model locally using Ollama's Python or JavaScript client libraries.
+- Try running the language model locally using Ollama's [Python](https://github.com/ollama/ollama-python) or [JavaScript](https://github.com/ollama/ollama-js) client libraries.
+- Try replacing Eleven Labs with a [Replicate-hosted text-to-speech model](https://replicate.com/explore?query=tts).
 - Play around with the summary prompts. How do you get the best "compression" while still maintaining the essence of the original text?
 - Bring your own audio file as voice training data. Eleven Labs supports training on the fly without pre-creating a voice.
 - Build an app that finds and extracts utterances in audio that are followed by laughter.
