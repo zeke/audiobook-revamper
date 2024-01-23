@@ -16,32 +16,21 @@ def shorten(input_text):
     prompt= f"""Shorten the following text to 300 words or less, while preserving the overall meaning and the most important points:\n\n{input_text}"""
     prompt = remove_duplicate_spaces_and_tabs(prompt)
 
+    model = "mistralai/mixtral-8x7b-instruct-v0.1"
+    # model = "meta/llama-2-70b-chat"
 
-# The mistralai/mixtral-8x7b-instruct-v0.1 model can stream output as it's running.
-for event in replicate.stream(
-    "mistralai/mixtral-8x7b-instruct-v0.1",
-    input={
-        "top_k": 50,
-        "top_p": 0.9,
-        "prompt": "Write a bedtime story about neural networks I can read to my toddler",
-        "temperature": 0.6,
-        "max_new_tokens": 1024,
-        "prompt_template": "<s>[INST] {prompt} [/INST] ",
-        "presence_penalty": 0,
-        "frequency_penalty": 0
-    },
-):
-    print(str(event), end="")
+    output = replicate.run(
+        model,
+        input={
+            "prompt": prompt
+        }
+    )
 
-    # output = replicate.run(
-    #     "mistralai/mixtral-8x7b-instruct-v0.1:7b3212fbaf88310cfef07a061ce94224e82efc8403c26fc67e8f6c065de51f21",
-    #     input={
-    #         "prompt": prompt
-    #     }
-    # )
+    # print("type of output: ", type(output))
+    # print("output: ", output)
 
-    print("type of output: ", type(output))
-    print("output: ", output)
+    output = "".join(output)
+
     return remove_extra_whitespace(output)
 
 def remove_extra_whitespace(text):
