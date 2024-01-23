@@ -2,21 +2,21 @@ import os
 from elevenlabs import generate, set_api_key, play, save
 
 
-def speak(text):    
+def speak(text, output_filename):    
     set_api_key(os.getenv('ELEVEN_LABS_API_KEY'))
 
     SPEAKERS = {
         "SHIFFMAN": "4xMKRcYPQgwzw20uiVs1",
         "ATTENBOROUGH": "8kmv4P1MJGqzHN5zDEVf",
-        "DEEPZEKE": "yjDmicO2VbPoRWu18wNb"
+        "DEEPZEKE": "yjDmicO2VbPoRWu18wNb",
+        "JAKE": "8itk28PzkO159Z8sJ6Xh"
     }
 
-    audio = generate(text, voice=SPEAKERS["ATTENBOROUGH"])
+    audio = generate(text, voice=SPEAKERS["JAKE"])
 
-    play(audio)
+    # play(audio)
 
-    output_filename = 'test.wav'
-    save(audio,output_filename)
+    save(audio, output_filename)
 
-    return output_filename
+    return audio
 
