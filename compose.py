@@ -1,7 +1,7 @@
 # from chapterize import chapterize
 from transcribe import transcribe
 from shorten import shorten
-from speak import speak
+from narrate import narrate
 
 def compose(input_file):
     print("Input file:" + input_file)
@@ -16,9 +16,9 @@ def compose(input_file):
     print("\n\nSummary:")
     print(summary)
 
-    print("\n\nSpeaking...")
+    print("\n\nNarrating...")
     output_filename = input_file.replace(".mp3", "-summary.mp3")
-    speak(summary, output_filename)
+    narrate(summary, output_filename)
 
     print("\n\nOutput file:" + output_filename)
 

@@ -16,7 +16,7 @@ Use AI to shorten an re-narrate audiobooks.
 1. **Chapterize** the M4B file into individual M4A audio files using FFMPEG.
 1. **Transcribe** chapter audio files to text using [WhisperX](https://replicate.com/daanelson/whisperx).
 1. **Shorten** chapter text using [Llama](https://replicate.com/meta/llama-2-70b-chat) or [Mixtral](https://replicate.com/mistralai/mixtral-8x7b-instruct-v0.1).
-1. **Speak** new chapter in a custom voice using a text-to-speech model like [Eleven Labs](https://elevenlabs.io/voice-lab).
+1. **Narrate** new chapters in a custom voice using a text-to-speech model from [Eleven Labs](https://elevenlabs.io/voice-lab).
 
 ## Prerequisites
 

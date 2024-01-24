@@ -2,7 +2,7 @@ import os
 from elevenlabs import generate, set_api_key, play, save
 
 
-def speak(text, output_filename):    
+def narrate(text, output_filename):    
     set_api_key(os.getenv('ELEVEN_LABS_API_KEY'))
 
     SPEAKERS = {
