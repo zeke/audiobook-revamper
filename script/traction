@@ -1,23 +1,23 @@
 #!/bin/bash
 
 # python compose.py chapters/02-preface-traction-trumps-everything.mp3
-python compose.py chapters/02-preface-traction-trumps-everything.mp3
-python compose.py chapters/03-chapter-one-traction-channels.mp3
-python compose.py chapters/04-chapter-two-traction-thinking.mp3
-python compose.py chapters/05-chapter-three-bullseye.mp3
-python compose.py chapters/06-chapter-four-traction-testing.mp3
-python compose.py chapters/07-chapter-five-critical-path.mp3
-python compose.py chapters/08-chapter-six-targeting-blogs.mp3
-python compose.py chapters/09-chapter-seven-publicity.mp3
-python compose.py chapters/10-chapter-eight-unconventional-pr.mp3
-python compose.py chapters/11-chapter-nine-search-engine-marketing-sem-.mp3
-python compose.py chapters/12-chapter-ten-social-and-display-ads.mp3
-python compose.py chapters/13-chapter-eleven-offline-ads.mp3
-python compose.py chapters/14-chapter-twelve-search-engine-optimization-seo-.mp3
-python compose.py chapters/15-chapter-thirteen-content-marketing.mp3
-python compose.py chapters/16-chapter-fourteen-email-marketing.mp3
-python compose.py chapters/17-chapter-fifteen-viral-marketing.mp3
-python compose.py chapters/18-chapter-sixteen-engineering-as-marketing.mp3
+# python compose.py chapters/02-preface-traction-trumps-everything.mp3
+# python compose.py chapters/03-chapter-one-traction-channels.mp3
+# python compose.py chapters/04-chapter-two-traction-thinking.mp3
+# python compose.py chapters/05-chapter-three-bullseye.mp3
+# python compose.py chapters/06-chapter-four-traction-testing.mp3
+# python compose.py chapters/07-chapter-five-critical-path.mp3
+# python compose.py chapters/08-chapter-six-targeting-blogs.mp3
+# python compose.py chapters/09-chapter-seven-publicity.mp3
+# python compose.py chapters/10-chapter-eight-unconventional-pr.mp3
+# python compose.py chapters/11-chapter-nine-search-engine-marketing-sem-.mp3
+# python compose.py chapters/12-chapter-ten-social-and-display-ads.mp3
+# python compose.py chapters/13-chapter-eleven-offline-ads.mp3
+# python compose.py chapters/14-chapter-twelve-search-engine-optimization-seo-.mp3
+# python compose.py chapters/15-chapter-thirteen-content-marketing.mp3
+# python compose.py chapters/16-chapter-fourteen-email-marketing.mp3
+# python compose.py chapters/17-chapter-fifteen-viral-marketing.mp3
+# python compose.py chapters/18-chapter-sixteen-engineering-as-marketing.mp3
 python compose.py chapters/19-chapter-seventeen-business-development-bd-.mp3
 python compose.py chapters/20-chapter-eighteen-sales.mp3
 python compose.py chapters/21-chapter-nineteen-affiliate-programs.mp3

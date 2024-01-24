@@ -53,9 +53,9 @@ python compose.py chapters/*.mp3
 
 ## Tips
 
-- **Start in the browser.** When first tinkering with a model, running it on Replicate's web UI make it easier to get started, play with inputs, visualize outputs, then grab some code and run with it.
+- **Play with models in the browser.** When first tinkering with an unfamiliar model, running it on Replicate's web UI makes it easier to get started, play with inputs, visualize outputs, then [grab some code](https://replicate.com/vaibhavs10/incredibly-fast-whisper?input=python) and run with it.
 
-- **Use the Replicate dashboard** to dig into your recent predictions and get a helpful view of inputs, outputs, and metrics.
+- **Use the Replicate dashboard** to dig into your [recent predictions](https://replicate.com) and get a helpful view of inputs, outputs, and metrics.
 
 - **Use [Replicate deployments](https://replicate.com/docs/deployments).** Deploying your own copy of a model on Replicate gives you control over min/max instances, so you can keep a model on while you're prototyping and turn it down to zero when you're done.
 

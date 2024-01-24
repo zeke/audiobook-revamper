@@ -16,8 +16,8 @@ def shorten(input_text):
     prompt= f"""Shorten the following text to 300 words or less, while preserving the overall meaning and the most important points:\n\n{input_text}"""
     prompt = remove_duplicate_spaces_and_tabs(prompt)
 
-    model = "mistralai/mixtral-8x7b-instruct-v0.1"
-    # model = "meta/llama-2-70b-chat"
+    # model = "mistralai/mixtral-8x7b-instruct-v0.1"
+    model = "meta/llama-2-70b-chat"
 
     output = replicate.run(
         model,
