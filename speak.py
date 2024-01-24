@@ -9,10 +9,11 @@ def speak(text, output_filename):
         "SHIFFMAN": "4xMKRcYPQgwzw20uiVs1",
         "ATTENBOROUGH": "8kmv4P1MJGqzHN5zDEVf",
         "DEEPZEKE": "yjDmicO2VbPoRWu18wNb",
-        "JAKE": "8itk28PzkO159Z8sJ6Xh"
+        "JAKE": "8itk28PzkO159Z8sJ6Xh",
+        "ZADIE": "xZszqjAycwq4ZF4Oz00Z"
     }
 
-    audio = generate(text, voice=SPEAKERS["JAKE"])
+    audio = generate(text, voice=SPEAKERS["ZADIE"])
 
     # play(audio)
 

@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# python compose.py chapters/02-preface-traction-trumps-everything.mp3
-# python compose.py chapters/02-preface-traction-trumps-everything.mp3
+python compose.py chapters/02-preface-traction-trumps-everything.mp3
 # python compose.py chapters/03-chapter-one-traction-channels.mp3
 # python compose.py chapters/04-chapter-two-traction-thinking.mp3
 # python compose.py chapters/05-chapter-three-bullseye.mp3
@@ -18,11 +17,11 @@
 # python compose.py chapters/16-chapter-fourteen-email-marketing.mp3
 # python compose.py chapters/17-chapter-fifteen-viral-marketing.mp3
 # python compose.py chapters/18-chapter-sixteen-engineering-as-marketing.mp3
-python compose.py chapters/19-chapter-seventeen-business-development-bd-.mp3
-python compose.py chapters/20-chapter-eighteen-sales.mp3
-python compose.py chapters/21-chapter-nineteen-affiliate-programs.mp3
-python compose.py chapters/22-chapter-twenty-existing-platforms.mp3
-python compose.py chapters/23-chapter-twentyone-trade-shows.mp3
-python compose.py chapters/24-chapter-twentytwo-offline-events.mp3
-python compose.py chapters/25-chapter-twentythree-speaking-engagements.mp3
-python compose.py chapters/26-chapter-twentyfour-community-building.mp3
+# python compose.py chapters/19-chapter-seventeen-business-development-bd-.mp3
+# python compose.py chapters/20-chapter-eighteen-sales.mp3
+# python compose.py chapters/21-chapter-nineteen-affiliate-programs.mp3
+# python compose.py chapters/22-chapter-twenty-existing-platforms.mp3
+# python compose.py chapters/23-chapter-twentyone-trade-shows.mp3
+# python compose.py chapters/24-chapter-twentytwo-offline-events.mp3
+# python compose.py chapters/25-chapter-twentythree-speaking-engagements.mp3
+# python compose.py chapters/26-chapter-twentyfour-community-building.mp3
