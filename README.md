@@ -59,9 +59,9 @@ python compose.py chapters/*.mp3
 
 - **Use [Replicate deployments](https://replicate.com/docs/deployments).** Deploying your own copy of a model on Replicate gives you control over min/max instances, so you can keep a model on while you're prototyping and turn it down to zero when you're done.
 
-- **Use Python for prototyping.** ChatGPT is good at writing Python. Python has a big standard library so you can build stuff with fewer external dependencies. No ESM/CJS shenanigans. Better Replicate client library experienc for working with local files.
+- **Use Python for prototyping.** ChatGPT is [good at writing Python](https://chat.openai.com/g/g-jcrLaezCM-pythonista). Python has a big standard library so you can build stuff with fewer external dependencies. None of the ESM/CJS shenanigans of the JavaScript world. Better Replicate client library experience for working with local files.
 
-- **Use Node.js for real products.** When you start building something that's going to have real users, Vercel+Next.js is a winning combination. Instead of expensive long-running processes, use webhooks + serverless functions to minimize costs.
+- **Use Node.js for real products.** When you start building something that's going to have real users, Vercel + Next.js is a winning combination. Instead of expensive long-running processes, use [webhooks and serverless functions](https://replicate.com/docs/webhooks) to minimize costs.
 
 - **Use run counts as a proxy for model quality.** - There are many [whisper variants](https://replicate.com/explore?query=whisper). Some are better than others. Some do diarization. Some fall over on large audio files. A high run count is usually a good indication that people are using a model with success.
 
@@ -72,3 +72,10 @@ python compose.py chapters/*.mp3
 - Play around with the summary prompts. How do you get the best "compression" while still maintaining the essence of the original text?
 - Bring your own audio file as voice training data. Eleven Labs supports training on the fly without pre-creating a voice.
 - Build an app that finds and extracts utterances in audio that are followed by laughter.
+
+
+## QR code
+
+Leads to this repo:
+
+![QR Code](qr.png)
