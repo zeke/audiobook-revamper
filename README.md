@@ -1,6 +1,6 @@
-# Audiobook Revamper
+# 📕 ➡️ 🗜️ ➡️ 🗣️ ➡️ 📗 Audiobook Revamper
 
-Use AI to shorten an re-narrate audiobooks.
+Use AI to shorten and re-narrate audiobooks.
 
 ⚠️ This is a prototype. Your mileage may vary. ⚠️
 
