@@ -10,6 +10,12 @@ Use AI to shorten and re-narrate audiobooks.
 - Some narrators don't have soothing voices.
 - Some audiobooks are too long.
 
+## Examples
+
+- [Traction, Chapter 1 - Original author](https://upcdn.io/FW25b4F/raw/zeke-scraps/audiobook-revamper-examples/example-output-original-narrator.mp3)
+- [Traction, Chapter 1 - Zadie](https://upcdn.io/FW25b4F/raw/zeke-scraps/audiobook-revamper-examples/example-output-zadie-smith.mp3)
+- [Traction, Chapter 1 - David](https://upcdn.io/FW25b4F/raw/zeke-scraps/audiobook-revamper-examples/example-output-attenborough.mp3)
+
 ## How it works
 
 1. **Download** an audiobook from Audible as an M4B file using [OpenAudible](https://openaudible.org).
@@ -17,6 +23,8 @@ Use AI to shorten and re-narrate audiobooks.
 1. **Transcribe** chapter audio files to text using [WhisperX](https://replicate.com/daanelson/whisperx).
 1. **Shorten** chapter text using [Llama](https://replicate.com/meta/llama-2-70b-chat) or [Mixtral](https://replicate.com/mistralai/mixtral-8x7b-instruct-v0.1).
 1. **Narrate** new chapters in a custom voice using a text-to-speech model from [Eleven Labs](https://elevenlabs.io/voice-lab).
+
+
 
 ## Prerequisites
 
